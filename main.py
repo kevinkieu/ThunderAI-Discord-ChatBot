@@ -22,7 +22,7 @@ genai.configure(api_key=GEMINI_API_KEY)
 text_generation_config = {
 	"temperature": 0.9,
 	"top_p": 1,
-	"top_k": 1,
+	"top_k": 34,
 	"max_output_tokens": 8000,
 }
 image_generation_config = {
